@@ -3,7 +3,7 @@ import metrics.flesch as f
 
 def get_argparser():
     parser = argparse.ArgumentParser(description='Calculate the readability indices of the given text documents.')
-    parser.add_argument('filepaths', nargs='+', help='paths of the text files')
+    parser.add_argument('filepaths', nargs='+', help='paths of the text files.')
     return parser
 
 if __name__ == '__main__':
